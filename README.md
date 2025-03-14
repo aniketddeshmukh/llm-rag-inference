@@ -10,15 +10,6 @@ This repository contains an end-to-end **Retrieval-Augmented Generation (RAG) pi
 - **LangChain** for conversational memory and orchestration
 - **Gradio UI** for an interactive chat interface
 
-## Installation
-
-### Prerequisites
-Make sure you have the following installed:
-- Python 3.8+
-- pip
-- Azure OpenAI API key
-
-
 ## How It Works
 1. **User Query**: The chatbot receives a question.
 2. **Retriever Fetches Context**: The query is embedded and matched against stored document vectors.
